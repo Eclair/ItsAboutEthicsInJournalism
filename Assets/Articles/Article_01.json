@@ -1,5 +1,5 @@
 {
-    "headline": "New Journalist Hired for $0",
+    "headline": "New Journalist Hired to $0",
     "context": [
         "The Daily Fail, in order to combat $1, hired a new reporter covering general issues from health to national security.",
         "The reporter has over 20 years of experience $2, and we are proud to welcome them to our staff."
@@ -10,9 +10,9 @@
     },
     "spots": [
         {
-            "length": 24,
+            "length": 35,
             "phrases": [
-                { "text": "Clean Our Filthy Toilets", "truth": 0, "catchy": 5 },
+                { "text": "Play Video Games in Their Underwear", "truth": 0, "catchy": 5 },
                 { "text": "Cover Today's Top Issues", "truth": 5, "catchy": 0 }
             ]
         },
