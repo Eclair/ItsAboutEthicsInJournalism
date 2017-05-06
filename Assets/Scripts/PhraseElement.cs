@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler {
@@ -8,6 +9,9 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 	public static GameObject itemBeingDragged;
 	Vector3 startPosition;
 	Vector3 startOffset;
+
+	public GameObject ArticleHeadline;
+	public GameObject ArticleContent;
 
 	#region IBeginDragHandler implementation
 
@@ -31,8 +35,42 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
 	public void OnEndDrag(PointerEventData eventData) {
 		itemBeingDragged = null;
+		// Check if we collide with Headline
+
+		Vector3 elementPosition = transform.position + startOffset;
+		Rect articleHeadlineRect = ToWorldCoordinate(ArticleHeadline.GetComponent<RectTransform>());
+		Rect articleContentRect = ToWorldCoordinate(ArticleContent.GetComponent<RectTransform>());
+
+		if (isInsideRect(elementPosition, articleHeadlineRect)) {
+			Vector2 position = getPositionInsideRect(elementPosition, articleHeadlineRect);
+			// Try to understand what line it is
+			int line = Mathf.RoundToInt(position.y / ArticleHeadline.GetComponent<Text>().fontSize);
+			Debug.Log("Position inside Headline: " + position + " line?: " + line);
+		}
+		if (isInsideRect(elementPosition, articleContentRect)) {
+			Vector2 position = getPositionInsideRect(elementPosition, articleContentRect);
+			// Try to understand what line it is
+			int line = Mathf.RoundToInt(position.y / ArticleContent.GetComponent<Text>().fontSize);
+			Debug.Log("Position inside Content: " + position + " line?: " + line);
+		}
+
 		transform.position = startPosition;
 	}
 
 	#endregion
+
+	private Rect ToWorldCoordinate(RectTransform rectTransform) {
+		Vector3[] corners = new Vector3[4];
+		rectTransform.GetWorldCorners(corners);
+		return new Rect(corners[0], new Vector2(rectTransform.rect.size.x, rectTransform.rect.size.y));
+	}
+
+	private bool isInsideRect(Vector3 position, Rect rect) {
+		return rect.Contains(position);
+	}
+
+	private Vector2 getPositionInsideRect(Vector3 position, Rect rect) {
+		Vector2 positionInsideRect = new Vector2(position.x, position.y) - rect.position;
+		return new Vector2(positionInsideRect.x, rect.height - positionInsideRect.y);
+	}
 }
