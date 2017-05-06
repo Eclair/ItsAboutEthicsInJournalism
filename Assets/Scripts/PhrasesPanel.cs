@@ -10,7 +10,7 @@ public class PhrasesPanel : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		updateWithPhrases(new string[] {
-			"Clean Our Filthy Toilets",
+			"Play Video Games in Their Underwear",
 			"Cover Today's Top Issues",
 			"Fake News",
 			"Skeletor",
@@ -30,7 +30,6 @@ public class PhrasesPanel : MonoBehaviour {
 			phrasesPlaceholders[phraseIndex].SetActive(phraseIndex < phrases.Length);
 			if (phraseIndex < phrases.Length) {
 				phrasesPlaceholders[phraseIndex].GetComponentInChildren<Text>().text = phrases[phraseIndex];
-
 			}
 		}
 	}

@@ -35,6 +35,7 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
 	public void OnEndDrag(PointerEventData eventData) {
 		itemBeingDragged = null;
+
 		// Check if we collide with Headline
 
 		Vector3 elementPosition = transform.position + startOffset;
