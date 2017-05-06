@@ -1,7 +1,7 @@
 {
     "headline": "\"Minceraft\" Takes Gaming World by Storm",
     "context": [
-        "It's the newest sensation you might not have heard of: Minceraft. It's a game about building a raft out of meat, $0, and it's sold 2 million copies in the last 4 months.",
+        "It's the newest sensation you might not have heard of: Minceraft. It's a game about building a raft out of meat $0, and it's sold 2 million copies in the last 4 months.",
         "Markus Humann, creator of Minceraft, is already well known for his hit game $1. Minceraft, however, is his first foray into meat-based games.",
         "\"I wanted to show my passion for $2,\" said Humann, 2014's International Swedish Meatball Eating Competition winner. Humann, however, has invited controversy with his political opinions."
         "Last month, he was forced to apologize for comments insulting to $3. But the kids who play Minceraft are more interested in the game than its creator.",
@@ -15,45 +15,45 @@
         {
             "length": 28,
             "phrases": [
-                { "text": "an unidentified hacker group", "truth": 5, "catchy": 5 },
-                { "text": "an angry lumberjack", "truth": 0, "catchy": 10 },
-                { "text": "Nana McCrudden", "truth": 0, "catchy": 5 }
+                { "text": "and cultivating e.coli", "truth": 5, "catchy": 5 },
+                { "text": ", based on a hit Exploration Channel show", "truth": 10, "catchy": 0 },
+                { "text": "and Seaburgers", "truth": 0, "catchy": 5 }
             ]
         },
 
         {
             "length": 35,
             "phrases": [
-                { "text": "french kissed a polar bear", "truth": 0, "catchy": 10 },
-                { "text": "worked with any government agencies", "truth": 5, "catchy": 0 },
-                { "text": "seen the sun", "truth": 0, "catchy": 5 }
+                { "text": "Super Beefio Brothers", "truth": 5, "catchy": 0 },
+                { "text": "Vegetable Van", "truth": 0, "catchy": 0 },
+                { "text": "Soyman", "truth": 0, "catchy": 5 }
             ]
         },
 
         {
             "length": 29,
             "phrases": [
-                { "text": "yoga classes for the homeless", "truth": 0, "catchy": 10 },
-                { "text": "Reporters Without Ethics", "truth": 5, "catchy": 0 },
-                { "text": "Snowboarding for Seniors", "truth": 0, "catchy": 5 }
+                { "text": "meat and its many applications", "truth": 5, "catchy": 0 },
+                { "text": "unpopular code languages", "truth": 0, "catchy": 0 },
+                { "text": "growing a beard on my neck", "truth": 0, "catchy": 5 }
             ]
         },
 
         {
             "length": 26,
             "phrases": [
-                { "text": "an international treasure", "truth": 5, "catchy": 5 },
-                { "text": "innocent of any wrongdoing", "truth": 5, "catchy": 0 },
-                { "text": "a goose in a man costume", "truth": 0, "catchy": 10 }
+                { "text": "Jamaicans", "truth": 0, "catchy": 10 },
+                { "text": "the Society for Prevention of Cruelty to Animals", "truth": 5, "catchy": 5 },
+                { "text": "people who vote without researching candidates", "truth": 0, "catchy": 5 }
             ]
         },
 
         {
             "length": 29,
             "phrases": [
-                { "text": "a new Rolls Royce Phantom", "truth": 5, "catchy": 5 },
-                { "text": "a Ford Pinto", "truth": 0, "catchy": 0 },
-                { "text": "a car powered by his own feet", "truth": 0, "catchy": 10 }
+                { "text": "reconstituted pork", "truth": 5, "catchy": 0 },
+                { "text": "penguin burger", "truth": 0, "catchy": 5 },
+                { "text": "celery", "truth": 0, "catchy": 5 }
             ]
         }
     ]
