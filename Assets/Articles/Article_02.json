@@ -1,0 +1,49 @@
+{
+    "headline": "Research Shows that Eating $0 Every Day Leads to Longer Lives",
+    "context": [
+        "In a new article published in the Journal of Good Science, scientists have shown that humans could extend their lives by $1 years based on daily ingestion of this superfood.",
+        "\"We haven't been eating right for years,\" said $2. \"We finally have the science that proves we shouldn't have put so much emphasis on $3.\"",
+        "The news has already angered national fast food chain McVanka's, who just launched the Mc$4."
+    ],
+    "score": {
+        "truth": 15,
+        "catchy": 30
+    },
+    "spots": [
+        {
+            "length": 29,
+            "phrases": [
+                { "text": "a Stick of Butter", "truth": 0, "catchy": 10 },
+                { "text": "Brussels Sprouts", "truth": 5, "catchy": 0 }
+                { "text": "Chocolate-Covered Cockroaches", "truth": 0, "catchy": 15 }
+            ]
+        },
+
+        {
+            "length": 3,
+            "phrases": [
+                { "text": "15", "truth": 10, "catchy": 0 },
+                { "text": "50", "truth": 5, "catchy": 5 },
+                { "text": "300", "truth": 0, "catchy": 10 }
+            ]
+        },
+
+        {
+            "length": 66,
+            "phrases": [
+                { "text": "Dana Weimeraner, lead researcher at the Institute for Food Science", "truth": 5, "catchy": 0 }
+                { "text": "The Pallbearer, professional wrestler and accordion collector", "truth": 0, "catchy": 10 }
+                { "text": "Jeffrey Daniels, recipient of the 2017 Janitor of the Year Award", "truth": 0, "catchy": 5 }
+            ]
+        },
+
+        {
+            "length": 24,
+            "phrases": [
+                { "text": "Heartstopper Supreme", "truth": 5, "catchy": 5 }
+                { "text": "Steamed Broccoli", "truth": 0, "catchy": 0 }
+                { "text": "Bacon Cheddar Lardburger", "truth": 5, "catchy": 10 }
+            ]
+        }
+    ]
+}
