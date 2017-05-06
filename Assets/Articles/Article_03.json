@@ -1,49 +1,57 @@
 {
     "headline": "Local Hero SuperBrayden Defeats $0",
     "context": [
-        "The city rejoiced today as SuperBrayden finally achieved victory over his archnemesis. Clad in his red costume, SuperBrayden used his powers of $1 to save the day, and our fair city.",
-        "His trusty sidekick Alvin able to stop the dastardly villain by $2. Alvin's diet of $3-enriched dog food has given him superpowers as well, which proved invaluable today.",
-        "\"We owe SuperBrayden a debt of gratitude,\" said Mayor McCrudden. \"Without him, we'd all be $4 right now. We owe him all our lives.\"",
-        "Footage of the epic battle can be found on $5."
+        "The city rejoiced today as SuperBrayden finally achieved victory over his archnemesis. Clad in his red costume, SuperBrayden used $1 to save the day, and our fair city.",
+        "His trusty sidekick Alvin able to help stop the dastardly villain by $2. Alvin's diet of $3-enriched dog food has given him superpowers as well, which proved invaluable today.",
+        "\"We owe SuperBrayden a debt of gratitude,\" said Mayor McCrudden. \"Without him, we'd all be $4 right now. We owe him all our lives.\""
     ],
     "score": {
-        "truth": 15,
-        "catchy": 30
+        "truth": 30,
+        "catchy": 50
     },
     "spots": [
         {
-            "length": 29,
+            "length": 34,
             "phrases": [
-                { "text": "a Stick of Butter", "truth": 0, "catchy": 10 },
-                { "text": "Brussels Sprouts", "truth": 5, "catchy": 0 }
-                { "text": "Chocolate-Covered Cockroaches", "truth": 0, "catchy": 15 }
+                { "text": "Gorgoroth the Destroyer", "truth": 0, "catchy": 10 },
+                { "text": "Marklon the Meek", "truth": 5, "catchy": 0 }
+                { "text": "Nana McCrudden's Kissing Onslaught", "truth": 0, "catchy": 15 }
             ]
         },
 
         {
-            "length": 3,
+            "length": 36,
             "phrases": [
-                { "text": "15", "truth": 10, "catchy": 0 },
-                { "text": "50", "truth": 5, "catchy": 5 },
-                { "text": "300", "truth": 0, "catchy": 10 }
+                { "text": "ability to alter Youtube view counts", "truth": 0, "catchy": 5 },
+                { "text": "ability to identify the color blue", "truth": 5, "catchy": 5 },
+                { "text": "enchanted diamond pickaxe", "truth": 10, "catchy": 10 }
             ]
         },
 
         {
-            "length": 66,
+            "length": 27,
             "phrases": [
-                { "text": "Dana Weimeraner, lead researcher at the Institute for Food Science", "truth": 5, "catchy": 0 }
-                { "text": "The Pallbearer, professional wrestler and accordion collector", "truth": 0, "catchy": 10 }
-                { "text": "Jeffrey Daniels, recipient of the 2017 Janitor of the Year Award", "truth": 0, "catchy": 5 }
+                { "text": "eating his pants", "truth": 5, "catchy": 5 }
+                { "text": "using him as a fire hydrant", "truth": 0, "catchy": 10 }
+                { "text": "acting really cute", "truth": 5, "catchy": 5 }
             ]
         },
 
         {
-            "length": 24,
+            "length": 16,
             "phrases": [
-                { "text": "Heartstopper Supreme", "truth": 5, "catchy": 5 }
-                { "text": "Steamed Broccoli", "truth": 0, "catchy": 0 }
-                { "text": "Bacon Cheddar Lardburger", "truth": 5, "catchy": 10 }
+                { "text": "plutonium", "truth": 0, "catchy": 10 }
+                { "text": "computer chip", "truth": 0, "catchy": 5 }
+                { "text": "ENER-G Dog Sauce", "truth": 5, "catchy": 0 }
+            ]
+        },
+
+        {
+            "length": 42,
+            "phrases": [
+                { "text": "speaking German", "truth": 0, "catchy": 5 }
+                { "text": "gripped by the iron hand of tyranny", "truth": 5, "catchy": 0 }
+                { "text": "forced to watch the same cat video forever", "truth": 0, "catchy": 5 }
             ]
         }
     ]
