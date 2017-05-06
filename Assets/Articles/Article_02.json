@@ -14,7 +14,7 @@
             "length": 29,
             "phrases": [
                 { "text": "a Stick of Butter", "truth": 0, "catchy": 10 },
-                { "text": "Brussels Sprouts", "truth": 5, "catchy": 0 }
+                { "text": "Brussels Sprouts", "truth": 5, "catchy": 0 },
                 { "text": "Chocolate-Covered Cockroaches", "truth": 0, "catchy": 15 }
             ]
         },
@@ -31,8 +31,8 @@
         {
             "length": 66,
             "phrases": [
-                { "text": "Dana Weimeraner, lead researcher at the Institute for Food Science", "truth": 5, "catchy": 0 }
-                { "text": "The Pallbearer, professional wrestler and accordion collector", "truth": 0, "catchy": 10 }
+                { "text": "Dana Weimeraner, lead researcher at the Institute for Food Science", "truth": 5, "catchy": 0 },
+                { "text": "The Pallbearer, professional wrestler and accordion collector", "truth": 0, "catchy": 10 },
                 { "text": "Jeffrey Daniels, recipient of the 2017 Janitor of the Year Award", "truth": 0, "catchy": 5 }
             ]
         },
@@ -40,8 +40,8 @@
         {
             "length": 24,
             "phrases": [
-                { "text": "Heartstopper Supreme", "truth": 5, "catchy": 5 }
-                { "text": "Steamed Broccoli", "truth": 0, "catchy": 0 }
+                { "text": "Heartstopper Supreme", "truth": 5, "catchy": 5 },
+                { "text": "Steamed Broccoli", "truth": 0, "catchy": 0 },
                 { "text": "Bacon Cheddar Lardburger", "truth": 5, "catchy": 10 }
             ]
         }
