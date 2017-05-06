@@ -1,0 +1,58 @@
+{
+    "headline": "Youtube Star $0 Joins Local Boy for Epic Stream",
+    "context": [
+        "One of the biggest stars online will join with a brave young boy for an epic stream to fight $1.",
+        "\"This kid, Damien, is so cool,\" they said. \"I thought I was cool, but all I do is $2 while he's fighting a killer genetic disorder.\"",
+        "The unlikely pair will join up on Saturday $3 for a 24-hour stream. The Daily Fail applauds this YouTuber for taking a stand. \"$4, Damien,\" they said."
+    ],
+    "score": {
+        "truth": 25,
+        "catchy": 45
+    },
+    "spots": [
+        {
+            "length": 16,
+            "phrases": [
+                { "text": "DanTDM", "truth": 5, "catchy": 0 },
+                { "text": "Tubey McTuberson", "truth": 0, "catchy": 0 }
+                { "text": "Nana McCrudden", "truth": 0, "catchy": 5 }
+            ]
+        },
+
+        {
+            "length": 46,
+            "phrases": [
+                { "text": "Arnold Chiari Malformation, a genetic disorder", "truth": 5, "catchy": 0 },
+                { "text": "radical skateboarding terrorists", "truth": 0, "catchy": 5 },
+                { "text": "demon hamsters from Zarklon VI", "truth": 0, "catchy": 10 }
+            ]
+        },
+
+        {
+            "length": 43,
+            "phrases": [
+                { "text": "play video games all day while people watch", "truth": 5, "catchy": 0 }
+                { "text": "practice burping the alphabet", "truth": 0, "catchy": 5 }
+                { "text": "finish building my rocket to Heaven", "truth": 0, "catchy": 10 }
+            ]
+        },
+
+        {
+            "length": 51,
+            "phrases": [
+                { "text": "in England", "truth": 5, "catchy": 0 }
+                { "text": "in a hollowed-out volcano", "truth": 0, "catchy": 10 }
+                { "text": "at the Fred Durst Sicety of the Humanities and Arts", "truth": 0, "catchy": 0 }
+            ]
+        },
+
+        {
+            "length": 42,
+            "phrases": [
+                { "text": "You're the man", "truth": 5, "catchy": 0 }
+                { "text": "I'm doing this for you", "truth": 5, "catchy": 5 }
+                { "text": "I pass my YouTube crown and sceptre to you", "truth": 0, "catchy": 10 }
+            ]
+        }
+    ]
+}
