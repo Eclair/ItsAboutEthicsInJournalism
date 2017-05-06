@@ -1,0 +1,38 @@
+{
+    "headline": "Something is happening in $0",
+    "context": [
+        "The police reports that people in the blabla city saw $1",
+        "But people are experiencing $2"
+    ],
+    "score": {
+        "truth": 20,
+        "catchy": 30
+    },
+    "spots": [
+        // SPOT 1 ($0)
+        {
+            "length": 10,
+            "phrases": [
+                { "text": "Mayor's toilet", "truth": 0, "catchy": 10 },
+                { "text": "Mayor's house", "truth": 10, "catchy": 0 }
+            ]
+        },
+
+        // SPOT 2 ($1)
+        {
+            "length": 10,
+            "phrases": [
+                { "text": "a shark", "truth": 0, "catchy": 10 },
+                { "text": "...", "truth": 5, "catchy": 0 }
+            ]
+        },
+
+        // SPOT 3 ($2)
+        {
+            "length": 10,
+            "phrases": [
+                { "text": "", "truth": 0, "catchy": 10 }
+            ]
+        }
+    ]
+}
