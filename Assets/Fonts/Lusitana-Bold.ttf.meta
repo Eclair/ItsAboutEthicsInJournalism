@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 027a4874bbc294f3db2b523d3e98a93a
-timeCreated: 1494082809
+guid: 406273bf80cb147c6af1a39cf7ad0df8
+timeCreated: 1494178622
 licenseType: Free
 TrueTypeFontImporter:
   serializedVersion: 4
@@ -9,10 +9,11 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Playfair Display
+  fontName: Lusitana
   fontNames:
-  - Playfair Display
-  fallbackFontReferences: []
+  - Lusitana
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 19b1a6754e0ed4f8cbc628f917b02f8d, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

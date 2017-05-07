@@ -12,6 +12,7 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
 	public GameObject ArticleHeadline;
 	public GameObject ArticleContent;
+	public GameObject NewspaperLayout;
 
 	public int spotIndex = -1;
 	public int phraseIndex = -1;
@@ -47,19 +48,24 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 		Vector3 elementPosition = transform.position + startOffset;
 		Rect articleHeadlineRect = ToWorldCoordinate(ArticleHeadline.GetComponent<RectTransform>());
 		Rect articleContentRect = ToWorldCoordinate(ArticleContent.GetComponent<RectTransform>());
+		Rect realNewspaperRect = ToWorldCoordinate(NewspaperLayout.GetComponent<RectTransform>());
 
-		if (isInsideRect(elementPosition, articleHeadlineRect)) {
-			Vector2 position = getPositionInsideRect(elementPosition, articleHeadlineRect);
-			// Try to understand what line it is
-			int line = Mathf.RoundToInt(position.y / ArticleHeadline.GetComponent<Text>().fontSize);
-			ArticleManager.instance.tryInsertPhraseIntoHeadlineSpot(this, line);
+		if (isInsideRect(elementPosition, realNewspaperRect)) {
+			ArticleManager.instance.tryInsertPhraseIntoContextSpot(this, 0);
 		}
-		if (isInsideRect(elementPosition, articleContentRect)) {
-			Vector2 position = getPositionInsideRect(elementPosition, articleContentRect);
-			// Try to understand what line it is
-			int line = Mathf.RoundToInt(position.y / (ArticleContent.GetComponent<Text>().fontSize + 3));
-			ArticleManager.instance.tryInsertPhraseIntoContextSpot(this, line);
-		}
+
+//		if (isInsideRect(elementPosition, articleHeadlineRect)) {
+//			Vector2 position = getPositionInsideRect(elementPosition, articleHeadlineRect);
+//			// Try to understand what line it is
+//			int line = Mathf.RoundToInt(position.y / ArticleHeadline.GetComponent<Text>().fontSize);
+//			ArticleManager.instance.tryInsertPhraseIntoHeadlineSpot(this, line);
+//		}
+//		if (isInsideRect(elementPosition, articleContentRect)) {
+//			Vector2 position = getPositionInsideRect(elementPosition, articleContentRect);
+//			// Try to understand what line it is
+//			int line = Mathf.RoundToInt(position.y / (ArticleContent.GetComponent<Text>().fontSize + 3));
+//			ArticleManager.instance.tryInsertPhraseIntoContextSpot(this, line);
+//		}
 
 		transform.position = startPosition;
 	}

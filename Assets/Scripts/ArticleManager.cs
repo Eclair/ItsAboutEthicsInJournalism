@@ -235,23 +235,24 @@ public class ArticleManager : MonoBehaviour {
 	private int getHeadlineSpotByLine(int line) {
 		for (int spotIndex = 0; spotIndex < spotsInHeader.Count; spotIndex++) {
 			int spotId = spotsInHeader[spotIndex];
-			if (line >= article.spots[spotId].fromLine && line <= article.spots[spotId].toLine) {
+//			if (line >= article.spots[spotId].fromLine && line <= article.spots[spotId].toLine) {
 				return spotId;
-			}
+//			}
 		}
 		return -1;
 	}
 
 	public void tryInsertPhraseIntoContextSpot(PhraseElement phraseElement, int line) {
-		int spotId = getContextSpotByLine(line);
-		if (spotId < 0) {
-			// No Spot in this line
-			return;
-		}
-		if (phraseElement.spotIndex != spotId) {
-			// This phrase is not for this spot!
-			return;
-		}
+//		int spotId = getContextSpotByLine(line);
+//		if (spotId < 0) {
+//			// No Spot in this line
+//			return;
+//		}
+//		if (phraseElement.spotIndex != spotId) {
+//			// This phrase is not for this spot!
+//			return;
+//		}
+		int spotId = phraseElement.spotIndex;
 		article.spots[spotId]._selectedPhrase = phraseElement.phraseIndex;
 		wasUpdated = true;
 		wasUpdatedPanel = true;
@@ -285,7 +286,7 @@ public class ArticleManager : MonoBehaviour {
 				string color = 
 					isWaitingForResults && spotHasHighlight(spotId) 
 					? spotHighlight(spotId) 
-					: (spotId == highlightedSpotId ? "orange" : "lightblue");
+					: (spotId == highlightedSpotId ? "orange" : "olive");
 				headlineText = headlineText.Replace("$" + spotId, getEmptySpaceForSpot(spot.length, color));
 			} else {
 				// Put selected phrase:
@@ -338,7 +339,7 @@ public class ArticleManager : MonoBehaviour {
 					string color = 
 						isWaitingForResults && spotHasHighlight(spotId) 
 						? spotHighlight(spotId) 
-						: (spotId == highlightedSpotId ? "orange" : "lightblue");
+						: (spotId == highlightedSpotId ? "orange" : "olive");
 					contextText = contextText.Replace("$" + spotId, getEmptySpaceForSpot(spot.length, color));
 				} else {
 					// Put selected phrase:
@@ -381,8 +382,9 @@ public class ArticleManager : MonoBehaviour {
 
 	private string getEmptySpaceForSpot(int length, string color) {
 		string emptySpace = "<color=" + color + ">";
-		for (int i = 0; i < length && i < 20; i++) {
-			emptySpace += "█";
+		for (int i = 0; i < length; i++) {
+			string maskSymbols = "%@#$!+=";
+			emptySpace += maskSymbols[Random.Range(0, maskSymbols.Length)];//"█";
 		}
 		return emptySpace + "</color>";
 	}
