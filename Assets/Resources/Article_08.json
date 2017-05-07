@@ -9,14 +9,14 @@
     ],
     "score": {
         "truth": 25,
-        "catchy": 50
+        "catchy": 30
     },
     "spots": [
         {
             "length": 28,
             "phrases": [
-                { "text": "steal thousands of credit card numbers", "truth": 5, "catchy": 5 },
-                { "text": "hack the Jamaican elections", "truth": 10, "catchy": 0 },
+                { "text": "steal thousands of credit card numbers", "truth": 5, "catchy": 0 },
+                { "text": "hack the Jamaican elections", "truth": 0, "catchy": 10 },
                 { "text": "steal the world's supply of Doritos", "truth": 0, "catchy": 5 }
             ]
         },
@@ -24,8 +24,8 @@
         {
             "length": 35,
             "phrases": [
-                { "text": "the power of prayer", "truth": 5, "catchy": 0 },
-                { "text": "Remote Hypnotic Transference", "truth": 0, "catchy": 0 },
+                { "text": "the power of prayer", "truth": 0, "catchy": 5 },
+                { "text": "Remote Hypnotic Transference", "truth": 5, "catchy": 0 },
                 { "text": "aided by wizards", "truth": 0, "catchy": 5 }
             ]
         },
@@ -33,8 +33,8 @@
         {
             "length": 29,
             "phrases": [
-                { "text": "an arthritic hedgehog", "truth": 5, "catchy": 0 },
-                { "text": "a grumpy otter", "truth": 0, "catchy": 0 },
+                { "text": "an arthritic hedgehog", "truth": 0, "catchy": 0 },
+                { "text": "a grumpy otter", "truth": 5, "catchy": 0 },
                 { "text": "a rather attractive water buffalo", "truth": 0, "catchy": 5 }
             ]
         },
@@ -42,9 +42,9 @@
         {
             "length": 26,
             "phrases": [
-                { "text": "taking down three armed cybercriminals at once", "truth": 0, "catchy": 10 },
+                { "text": "taking down three armed cybercriminals at once", "truth": 10, "catchy": 5 },
                 { "text": "had a coat as shiny as mine", "truth": 5, "catchy": 5 },
-                { "text": "hacking into Cyberduck's mainframe", "truth": 0, "catchy": 5 }
+                { "text": "hacking into Cyberduck's mainframe", "truth": 0, "catchy": 0 }
             ]
         },
 
