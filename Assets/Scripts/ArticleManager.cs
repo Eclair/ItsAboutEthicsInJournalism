@@ -29,6 +29,8 @@ public class ArticleManager : MonoBehaviour {
 	public Slider cachySlider;
 
 	public AudioSource stampAudioSource;
+	public AudioSource paperAudioSource;
+	public AudioSource markerAudioSource;
 
 	private Article article;
 	private bool wasUpdated = false;
@@ -75,6 +77,7 @@ public class ArticleManager : MonoBehaviour {
 	public void OnRotateArticlePressed() {
 		GameManager.instance.RotateArticles();
 		newspaperAnimator.SetBool("NewspaperIsShown", false);
+		paperAudioSource.PlayDelayed(0.45f);
 		buttonsPanel.SetActive(false);
 		phrasesPanel.gameObject.SetActive(false);
 		StartCoroutine(resetArticleAfterDelay());
@@ -98,6 +101,8 @@ public class ArticleManager : MonoBehaviour {
 
 		hand.SetActive(true);
 		hand.GetComponent<Animator>().SetTrigger("StartScan");
+
+		markerAudioSource.PlayDelayed(0.3f);
 
 		StartCoroutine(OnHandAnimationEnded());
 	}
@@ -143,6 +148,8 @@ public class ArticleManager : MonoBehaviour {
 
 		newspaperAnimator.SetBool("NewspaperIsShown", false);
 
+		paperAudioSource.PlayDelayed(0.45f);
+
 		StartCoroutine(OnNewsPaperHide(false));
 	}
 
@@ -150,6 +157,8 @@ public class ArticleManager : MonoBehaviour {
 		resultsPanel.SetActive(false);
 
 		newspaperAnimator.SetBool("NewspaperIsShown", false);
+
+		paperAudioSource.PlayDelayed(0.45f);
 
 		StartCoroutine(OnNewsPaperHide(true));
 	}
@@ -207,6 +216,8 @@ public class ArticleManager : MonoBehaviour {
 		phrasesPanel.gameObject.SetActive(false);
 		passStamp.SetActive(false);
 		rejectStamp.SetActive(false);
+
+		paperAudioSource.PlayDelayed(0.7f);
 
 		newspaperAnimator.SetBool("NewspaperIsShown", true);
 
