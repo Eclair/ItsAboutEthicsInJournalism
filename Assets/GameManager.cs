@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour {
 		SceneManager.LoadScene("InitialComics");
 	}
 
-	public void TestLoopLevels() {
+	public void RotateArticles() {
 		currentArticle = (currentArticle + 1) % Articles.Count;
 		LoadArticle(Articles[currentArticle]);
 	}

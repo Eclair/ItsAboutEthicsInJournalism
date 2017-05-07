@@ -10,11 +10,9 @@ public class ComicsManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		foreach (GameObject comics in comicsImages) {
-			comics.SetActive(false);
+		for (int comicsIndex = 0; comicsIndex < comicsImages.Count; comicsIndex++) {
+			comicsImages[comicsIndex].SetActive(comicsIndex == 0);
 		}
-
-		comicsImages[0].SetActive(true);
 	}
 	
 	// Update is called once per frame
@@ -28,7 +26,7 @@ public class ComicsManager : MonoBehaviour {
 		if (currentImage < comicsImages.Count) {
 			comicsImages[currentImage].SetActive(true);
 		} else {
-			// TODO: GO TO ARTICLE
+			comicsImages[currentImage - 1].SetActive(true);
 			SceneManager.LoadScene("ArticleWriting");
 		}
 	}

@@ -22,6 +22,7 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 		itemBeingDragged = gameObject;
 		startPosition = transform.position;
 		startOffset = Input.mousePosition - transform.position;
+		ArticleManager.instance.StartDraggingForSpotType(this.spotIndex);
 	}
 
 	#endregion
@@ -41,6 +42,8 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
 		// Check if we collide with Headline
 
+		ArticleManager.instance.StopDraggingForSpotType();
+
 		Vector3 elementPosition = transform.position + startOffset;
 		Rect articleHeadlineRect = ToWorldCoordinate(ArticleHeadline.GetComponent<RectTransform>());
 		Rect articleContentRect = ToWorldCoordinate(ArticleContent.GetComponent<RectTransform>());
@@ -54,8 +57,7 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 		if (isInsideRect(elementPosition, articleContentRect)) {
 			Vector2 position = getPositionInsideRect(elementPosition, articleContentRect);
 			// Try to understand what line it is
-			int line = Mathf.RoundToInt(position.y / (ArticleContent.GetComponent<Text>().fontSize + 4));
-			Debug.Log("Line: " + line);
+			int line = Mathf.RoundToInt(position.y / (ArticleContent.GetComponent<Text>().fontSize + 3));
 			ArticleManager.instance.tryInsertPhraseIntoContextSpot(this, line);
 		}
 
