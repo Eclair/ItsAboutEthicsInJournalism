@@ -17,8 +17,6 @@ public class ArticleManager : MonoBehaviour {
 	public GameObject articleContent;
 	public PhrasesPanel phrasesPanel;
 
-	public bool isDragging = false;
-
 	private Article article;
 	private bool wasUpdated = false;
 	private List<int> spotsInHeader;
@@ -35,6 +33,11 @@ public class ArticleManager : MonoBehaviour {
 			wasUpdated = false;
 			updateLayout();
 		}
+	}
+
+	public void OnTestButtonClicked() {
+		GameManager.instance.TestLoopLevels();
+		LoadArticle(GameManager.instance.currentLoadedArticle);
 	}
 
 	private void LoadArticle(Article article) {
@@ -99,9 +102,6 @@ public class ArticleManager : MonoBehaviour {
 	}
 
 	private void updateLayout() {
-//		article.spots[0]._selectedPhrase = 0;
-//		article.spots[1]._selectedPhrase = 0;
-//		article.spots[2]._selectedPhrase = 0;
 		updateHeadline();
 		updateContext();
 		updatePhrases();

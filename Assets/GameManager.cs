@@ -27,6 +27,11 @@ public class GameManager : MonoBehaviour {
 		SceneManager.LoadScene("InitialComics");
 	}
 
+	public void TestLoopLevels() {
+		currentArticle = (currentArticle + 1) % Articles.Count;
+		LoadArticle(Articles[currentArticle]);
+	}
+
 	// Use this for initialization
 	void Start () {
 		
