@@ -17,12 +17,20 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 	public int spotIndex = -1;
 	public int phraseIndex = -1;
 
+	private Vector3 getDragPosition() {
+		if (Input.touchCount == 1) {
+			Vector2 touchPosition = Input.GetTouch(0).position;
+			return new Vector3(touchPosition.x, touchPosition.y);
+		}
+		return Input.mousePosition;
+	}
+
 	#region IBeginDragHandler implementation
 
 	public void OnBeginDrag(PointerEventData eventData) {
 		itemBeingDragged = gameObject;
 		startPosition = transform.position;
-		startOffset = Input.mousePosition - transform.position;
+		startOffset = getDragPosition() - transform.position;
 		ArticleManager.instance.StartDraggingForSpotType(this.spotIndex);
 		this.gameObject.GetComponentInChildren<Text>().color = Color.cyan;
 	}
@@ -32,7 +40,7 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 	#region IDragHandler implementation
 
 	public void OnDrag(PointerEventData eventData) {
-		transform.position = Input.mousePosition - startOffset;
+		transform.position = getDragPosition() - startOffset;
 		this.gameObject.GetComponentInChildren<Text>().color = Color.green;
 	}
 
