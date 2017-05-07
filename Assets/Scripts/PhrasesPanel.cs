@@ -9,15 +9,6 @@ public class PhrasesPanel : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		updateWithPhrases(new string[] {
-			"Play Video Games in Their Underwear",
-			"Cover Today's Top Issues",
-			"Fake News",
-			"Skeletor",
-			"training dancing circus bears",
-			"reporting with top-tier newspapers",
-			"winning hot-dog eating contests"
-		});
 	}
 	
 	// Update is called once per frame
@@ -25,11 +16,21 @@ public class PhrasesPanel : MonoBehaviour {
 		
 	}
 
-	public void updateWithPhrases(string[] phrases) {
+	public void updateWithPhrases(List<Article.Phrase> phrases, Article.Spot[] spots) {
 		for (int phraseIndex = 0; phraseIndex < phrasesPlaceholders.Count; phraseIndex++) {
-			phrasesPlaceholders[phraseIndex].SetActive(phraseIndex < phrases.Length);
-			if (phraseIndex < phrases.Length) {
-				phrasesPlaceholders[phraseIndex].GetComponentInChildren<Text>().text = phrases[phraseIndex];
+			if (phraseIndex < phrases.Count) {
+				phrasesPlaceholders[phraseIndex].SetActive(true);
+				PhraseElement phraseElement = phrasesPlaceholders[phraseIndex].GetComponentInChildren<PhraseElement>();
+				phraseElement.phraseIndex = phrases[phraseIndex]._phraseIndex;
+				phraseElement.spotIndex = phrases[phraseIndex]._spotIndex;
+				phrasesPlaceholders[phraseIndex].GetComponentInChildren<Text>().text = phrases[phraseIndex].text;
+				if (spots[phraseElement.spotIndex]._selectedPhrase == phraseElement.phraseIndex) {
+					// Hide element because it's currently selected
+					phrasesPlaceholders[phraseIndex].SetActive(false);
+				}
+			} else {
+				// No such phrase
+				phrasesPlaceholders[phraseIndex].SetActive(false);
 			}
 		}
 	}

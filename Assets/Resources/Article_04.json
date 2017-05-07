@@ -14,7 +14,6 @@
             "length": 16,
             "phrases": [
                 { "text": "DanTDM", "truth": 5, "catchy": 0 },
-                { "text": "Tubey McTuberson", "truth": 0, "catchy": 0 },
                 { "text": "Nana McCrudden", "truth": 0, "catchy": 5 }
             ]
         },

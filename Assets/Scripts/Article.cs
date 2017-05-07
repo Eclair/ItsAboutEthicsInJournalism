@@ -20,6 +20,7 @@ public class Article {
 		public int length;
 		public int fromLine;
 		public int toLine;
+		public int _selectedPhrase = -1;
 		public Phrase[] phrases;
 	}
 
@@ -28,5 +29,7 @@ public class Article {
 		public string text;
 		public int truth;
 		public int catchy;
+		public int _spotIndex = -1;
+		public int _phraseIndex = -1;
 	}
 }

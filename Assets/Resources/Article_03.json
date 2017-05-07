@@ -41,7 +41,6 @@
             "length": 16,
             "phrases": [
                 { "text": "plutonium", "truth": 0, "catchy": 10 },
-                { "text": "computer chip", "truth": 0, "catchy": 5 },
                 { "text": "ENER-G Dog Sauce", "truth": 5, "catchy": 0 }
             ]
         },

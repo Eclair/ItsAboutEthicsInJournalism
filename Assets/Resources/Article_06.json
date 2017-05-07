@@ -1,0 +1,58 @@
+{
+    "headline": "Quickileaks Leaks, Allegations of $0 by Site Operator",
+    "context": [
+        "Quickileaks, the notorious exposer of classified information, was hacked by $1, revealing startling allegations involving its owner, Orange Julian.",
+        "\"This \"leak\" is clearly fake news,\", said Orange, \"I have never $2. This is clearly an attempt to discredit me. I'm involved in many charitable causes, including $3.\"",
+        "\"Orange Julian is $4,\" said a representative for the Jamaican Foreign Ministry. \"I am sure he will be fully exonerated.\" The representative then drove off in a $5."
+    ],
+    "score": {
+        "truth": 25,
+        "catchy": 50
+    },
+    "spots": [
+        {
+            "length": 28,
+            "phrases": [
+                { "text": "an unidentified hacker group", "truth": 5, "catchy": 5 },
+                { "text": "an angry lumberjack", "truth": 0, "catchy": 10 },
+                { "text": "Nana McCrudden", "truth": 0, "catchy": 5 }
+            ]
+        },
+
+        {
+            "length": 35,
+            "phrases": [
+                { "text": "french kissed a polar bear", "truth": 0, "catchy": 10 },
+                { "text": "worked with any government agencies", "truth": 5, "catchy": 0 },
+                { "text": "seen the sun", "truth": 0, "catchy": 5 }
+            ]
+        },
+
+        {
+            "length": 29,
+            "phrases": [
+                { "text": "yoga classes for the homeless", "truth": 0, "catchy": 10 },
+                { "text": "Reporters Without Ethics", "truth": 5, "catchy": 0 },
+                { "text": "Snowboarding for Seniors", "truth": 0, "catchy": 5 }
+            ]
+        },
+
+        {
+            "length": 26,
+            "phrases": [
+                { "text": "an international treasure", "truth": 5, "catchy": 5 },
+                { "text": "innocent of any wrongdoing", "truth": 5, "catchy": 0 },
+                { "text": "a goose in a man costume", "truth": 0, "catchy": 10 }
+            ]
+        },
+
+        {
+            "length": 29,
+            "phrases": [
+                { "text": "a new Rolls Royce Phantom", "truth": 5, "catchy": 5 },
+                { "text": "a Ford Pinto", "truth": 0, "catchy": 0 },
+                { "text": "a car powered by his own feet", "truth": 0, "catchy": 10 }
+            ]
+        }
+    ]
+}

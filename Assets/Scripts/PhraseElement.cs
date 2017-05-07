@@ -13,6 +13,9 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 	public GameObject ArticleHeadline;
 	public GameObject ArticleContent;
 
+	public int spotIndex = -1;
+	public int phraseIndex = -1;
+
 	#region IBeginDragHandler implementation
 
 	public void OnBeginDrag(PointerEventData eventData) {
@@ -46,13 +49,14 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 			Vector2 position = getPositionInsideRect(elementPosition, articleHeadlineRect);
 			// Try to understand what line it is
 			int line = Mathf.RoundToInt(position.y / ArticleHeadline.GetComponent<Text>().fontSize);
-			Debug.Log("Position inside Headline: " + position + " line?: " + line);
+			ArticleManager.instance.tryInsertPhraseIntoHeadlineSpot(this, line);
 		}
 		if (isInsideRect(elementPosition, articleContentRect)) {
 			Vector2 position = getPositionInsideRect(elementPosition, articleContentRect);
 			// Try to understand what line it is
-			int line = Mathf.RoundToInt(position.y / ArticleContent.GetComponent<Text>().fontSize);
-			Debug.Log("Position inside Content: " + position + " line?: " + line);
+			int line = Mathf.RoundToInt(position.y / (ArticleContent.GetComponent<Text>().fontSize + 4));
+			Debug.Log("Line: " + line);
+			ArticleManager.instance.tryInsertPhraseIntoContextSpot(this, line);
 		}
 
 		transform.position = startPosition;

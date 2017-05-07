@@ -50,8 +50,7 @@
             "length": 31,
             "phrases": [
                 { "text": "a robot", "truth": 5, "catchy": 0 },
-                { "text": "Warwick Davis", "truth": 0, "catchy": 5 },
-                { "text": "a manager of a convenience store", "truth": 0, "catchy": 0 }
+                { "text": "Warwick Davis", "truth": 0, "catchy": 5 }
             ]
         }
     ]
