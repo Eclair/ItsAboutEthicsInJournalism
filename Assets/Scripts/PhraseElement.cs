@@ -32,7 +32,6 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 		startPosition = transform.position;
 		startOffset = getDragPosition() - transform.position;
 		ArticleManager.instance.StartDraggingForSpotType(this.spotIndex);
-		this.gameObject.GetComponentInChildren<Text>().color = Color.cyan;
 	}
 
 	#endregion
@@ -41,7 +40,6 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
 	public void OnDrag(PointerEventData eventData) {
 		transform.position = getDragPosition() - startOffset;
-		this.gameObject.GetComponentInChildren<Text>().color = Color.green;
 	}
 
 	#endregion
@@ -49,8 +47,6 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 	#region IEndDragHandler implementation
 
 	public void OnEndDrag(PointerEventData eventData) {
-		this.gameObject.GetComponentInChildren<Text>().color = Color.red;
-
 		itemBeingDragged = null;
 
 		// Check if we collide with Headline

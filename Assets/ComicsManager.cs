@@ -11,22 +11,35 @@ public class ComicsManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		for (int comicsIndex = 0; comicsIndex < comicsImages.Count; comicsIndex++) {
-			comicsImages[comicsIndex].SetActive(comicsIndex == 0);
+			comicsImages[comicsIndex].SetActive(false);
+		}
+		showComics(comicsImages[0]);
+	}
+
+	public void showComics(GameObject comics) {
+		comics.SetActive(true);
+		if (comics.GetComponent<ComicsSlide>() != null) {
+			comics.GetComponent<ComicsSlide>().PlaySound();
 		}
 	}
-	
+
+	public void hideComics(GameObject comics) {
+		comics.SetActive(false);
+	}
+
 	// Update is called once per frame
 	void Update () {
 		
 	}
 
 	public void onComicsClick() {
-		comicsImages[currentImage].SetActive(false);
+		if (currentImage != comicsImages.Count - 1) {
+			hideComics(comicsImages[currentImage]);
+		}
 		currentImage++;
 		if (currentImage < comicsImages.Count) {
-			comicsImages[currentImage].SetActive(true);
+			showComics(comicsImages[currentImage]);
 		} else {
-			comicsImages[currentImage - 1].SetActive(true);
 			SceneManager.LoadScene("ArticleWriting");
 		}
 	}

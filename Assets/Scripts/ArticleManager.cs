@@ -31,6 +31,7 @@ public class ArticleManager : MonoBehaviour {
 	public AudioSource stampAudioSource;
 	public AudioSource paperAudioSource;
 	public AudioSource markerAudioSource;
+	public AudioSource typingAudioSource;
 
 	private Article article;
 	private bool wasUpdated = false;
@@ -268,6 +269,7 @@ public class ArticleManager : MonoBehaviour {
 //		}
 		int spotId = phraseElement.spotIndex;
 		article.spots[spotId]._selectedPhrase = phraseElement.phraseIndex;
+		typingAudioSource.Play();
 		wasUpdated = true;
 		wasUpdatedPanel = true;
 	}
