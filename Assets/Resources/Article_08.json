@@ -1,0 +1,59 @@
+{
+    "headline": "Cybercrime Ring Foiled by Dynamic Animal Duo",
+    "context": [
+        "An owl and a wolf joined forces to cripple cybercriminals who planned to $0. A leading cybersecurity suggests this may have been the biggest cybercrime ever.",
+        "The intrepid animals possess human personalities, downloaded directly into brains through a new technique, $1. The animal essences were then uploaded back to the Internet.",
+        "The wolf, going by the name of Drizz, claimed to be hunting cybercriminals on his own. \"I'm a lone cyberwolf, most of the time. I worked with a $2 once, and it didn't end well.",
+        "\"The moment I saw Drizz $3, I knew I had my new partner,\" said Tinytalon, in cyberowl form. \"Watch out, hackers. You mess with the owl, you get the beak.\"",
+        "The wolf and owl duo refused any reward, but were last seen $4."
+    ],
+    "score": {
+        "truth": 25,
+        "catchy": 50
+    },
+    "spots": [
+        {
+            "length": 28,
+            "phrases": [
+                { "text": "steal thousands of credit card numbers", "truth": 5, "catchy": 5 },
+                { "text": "hack the Jamaican elections", "truth": 10, "catchy": 0 },
+                { "text": "steal the world's supply of Doritos", "truth": 0, "catchy": 5 }
+            ]
+        },
+
+        {
+            "length": 35,
+            "phrases": [
+                { "text": "the power of prayer", "truth": 5, "catchy": 0 },
+                { "text": "Remote Hypnotic Transference", "truth": 0, "catchy": 0 },
+                { "text": "aided by wizards", "truth": 0, "catchy": 5 }
+            ]
+        },
+
+        {
+            "length": 29,
+            "phrases": [
+                { "text": "an arthritic hedgehog", "truth": 5, "catchy": 0 },
+                { "text": "a grumpy otter", "truth": 0, "catchy": 0 },
+                { "text": "a rather attractive water buffalo", "truth": 0, "catchy": 5 }
+            ]
+        },
+
+        {
+            "length": 26,
+            "phrases": [
+                { "text": "taking down three armed cybercriminals at once", "truth": 0, "catchy": 10 },
+                { "text": "had a coat as shiny as mine", "truth": 5, "catchy": 5 },
+                { "text": "hacking into Cyberduck's mainframe", "truth": 0, "catchy": 5 }
+            ]
+        },
+
+        {
+            "length": 29,
+            "phrases": [
+                { "text": "on vacation at hawaii.com", "truth": 5, "catchy": 0 },
+                { "text": "at petsmart.com looking for treats", "truth": 0, "catchy": 5 }
+            ]
+        }
+    ]
+}
