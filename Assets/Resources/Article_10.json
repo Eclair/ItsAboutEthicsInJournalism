@@ -1,10 +1,10 @@
 {
     "headline": "Monster Party Cause for Concern",
     "context": [
-        "Jamaica's Prime Minister formally enacted sanctions on the United States today, after a difficult meeting where the President was called \"$1\" by the minister.",
-        "The U.S. relies heavily on Jamaican exports of $2, drawing fears of a major economic depression. Many Americans are applying for Jamaican citizenship.",
-        "\"You know what they say: $3,\" said Desomond Brown, head of the Jamaican Immigration Office. \"We expect to see many more applications in the coming months.\"",
-        "Jamaica has vowed that sanctions will remain until the United States ceases its $4 production and \"chills out.\""
+        "A planned gathering of wolfmen, mummies, and $0 this weekend has raised the concern of community leaders. The \"Monster Mash,\" in its third year, is expecting a record turnout.",
+        "\"We're just a bunch of cool dudes and dudettes who just wanna party,\" said The Mummy, who appeared to be wrapped in $1.",
+        "Law enforcement officials did not have kind words to say. \"Last year, I saw a Dracula $3. I don't want to see that again,\" said Sheriff Anurag Bhatia.",
+        "Humans are encouraged not to poke, prod, or tease the monsters this weekend."
     ],
     "score": {
         "truth": 35,
@@ -14,44 +14,27 @@
         {
             "length": 8,
             "phrases": [
-                { "text": "a General Lack of Cool", "truth": 5, "catchy": 0 },
-                { "text": "Nuclear Concerns", "truth": 10, "catchy": 10 },
-                { "text": "Music Piracy", "truth": 0, "catchy": 5 }
+                { "text": "Draculas", "truth": 10, "catchy": 0 },
+                { "text": "Politicians", "truth": 5, "catchy": 5 },
+                { "text": "Elon Musk", "truth": 0, "catchy": 5 }
             ]
         },
 
         {
             "length": 8,
             "phrases": [
-                { "text": "Mr. Poopypants", "truth": 5, "catchy": 5 },
-                { "text": "a very sensible individual", "truth": 0, "catchy": 0 },
-                { "text": "an incapable buffoon", "truth": 10, "catchy": 5 }
+                { "text": "toilet paper", "truth": 5, "catchy": 5 },
+                { "text": "bandages", "truth": 0, "catchy": 0 },
+                { "text": "honey mustard", "truth": 10, "catchy": 5 }
             ]
         },
 
         {
-            "length": 8,
+            "length": 10,
             "phrases": [
-                { "text": "steel drums", "truth": 5, "catchy": 5 },
-                { "text": "singing crabs", "truth": 0, "catchy": 10 },
-                { "text": "tri-color hats", "truth": 0, "catchy": 5 }
-            ]
-        },
-
-        {
-            "length": 8,
-            "phrases": [
-                { "text": "the seaweed is always greener in somebody else's lake", "truth": 5, "catchy": 10 },
-                { "text": "every little thing gonna be alright", "truth": 0, "catchy": 5 },
-                { "text": "sanctions be jammin'", "truth": 0, "catchy": 0 }
-            ]
-        },
-
-        {
-            "length": 8,
-            "phrases": [
-                { "text": "nuclear warhead", "truth": 5, "catchy": 0 },
-                { "text": "fake dreadlock hat", "truth": 0, "catchy": 5 }
+                { "text": "kissing Santa Claus in the bathroom", "truth": 5, "catchy": 5 },
+                { "text": "drinking blood", "truth": 0, "catchy": 10 },
+                { "text": "drinking milk until he threw up", "truth": 0, "catchy": 5 }
             ]
         }
     ]
