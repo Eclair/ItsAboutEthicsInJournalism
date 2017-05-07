@@ -14,6 +14,8 @@
     "spots": [
         {
             "length": 28,
+            "fromLine": 1,
+            "toLine": 3,
             "phrases": [
                 { "text": "and cultivating e.coli", "truth": 5, "catchy": 5 },
                 { "text": ", based on a hit Exploration Channel show", "truth": 10, "catchy": 0 },
@@ -23,6 +25,8 @@
 
         {
             "length": 35,
+            "fromLine": 5,
+            "toLine": 7,
             "phrases": [
                 { "text": "Super Beefio Brothers", "truth": 5, "catchy": 0 },
                 { "text": "Vegetable Van", "truth": 0, "catchy": 0 },
@@ -32,6 +36,8 @@
 
         {
             "length": 29,
+            "fromLine": 8,
+            "toLine": 10,
             "phrases": [
                 { "text": "meat and its many applications", "truth": 5, "catchy": 0 },
                 { "text": "unpopular code languages", "truth": 0, "catchy": 0 },
@@ -41,6 +47,8 @@
 
         {
             "length": 26,
+            "fromLine": 14,
+            "toLine": 16,
             "phrases": [
                 { "text": "Jamaicans", "truth": 0, "catchy": 10 },
                 { "text": "the Society for Prevention of Cruelty to Animals", "truth": 5, "catchy": 5 },
@@ -50,6 +58,8 @@
 
         {
             "length": 29,
+            "fromLine": 17,
+            "toLine": 19,
             "phrases": [
                 { "text": "reconstituted pork", "truth": 5, "catchy": 0 },
                 { "text": "penguin burger", "truth": 0, "catchy": 5 }

@@ -12,6 +12,8 @@
     "spots": [
         {
             "length": 34,
+            "fromLine": 0,
+            "toLine": 2,
             "phrases": [
                 { "text": "Gorgoroth the Destroyer", "truth": 0, "catchy": 10 },
                 { "text": "Marklon the Meek", "truth": 5, "catchy": 0 },
@@ -21,6 +23,8 @@
 
         {
             "length": 36,
+            "fromLine": 1,
+            "toLine": 2,
             "phrases": [
                 { "text": "ability to alter Youtube view counts", "truth": 0, "catchy": 5 },
                 { "text": "ability to identify the color blue", "truth": 5, "catchy": 5 },
@@ -30,6 +34,8 @@
 
         {
             "length": 27,
+            "fromLine": 4,
+            "toLine": 5,
             "phrases": [
                 { "text": "eating his pants", "truth": 5, "catchy": 5 },
                 { "text": "using him as a fire hydrant", "truth": 0, "catchy": 10 },
@@ -39,6 +45,8 @@
 
         {
             "length": 16,
+            "fromLine": 6,
+            "toLine": 7,
             "phrases": [
                 { "text": "plutonium", "truth": 0, "catchy": 10 },
                 { "text": "ENER-G Dog Sauce", "truth": 5, "catchy": 0 }
@@ -47,6 +55,8 @@
 
         {
             "length": 42,
+            "fromLine": 9,
+            "toLine": 11,
             "phrases": [
                 { "text": "speaking German", "truth": 0, "catchy": 5 },
                 { "text": "gripped by the iron hand of tyranny", "truth": 5, "catchy": 0 },

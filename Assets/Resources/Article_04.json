@@ -12,6 +12,8 @@
     "spots": [
         {
             "length": 16,
+            "fromLine": 0,
+            "toLine": 2,
             "phrases": [
                 { "text": "DanTDM", "truth": 5, "catchy": 0 },
                 { "text": "Nana McCrudden", "truth": 0, "catchy": 5 }
@@ -20,6 +22,8 @@
 
         {
             "length": 46,
+            "fromLine": 0,
+            "toLine": 2,
             "phrases": [
                 { "text": "Arnold Chiari Malformation, a genetic disorder", "truth": 5, "catchy": 0 },
                 { "text": "radical skateboarding terrorists", "truth": 0, "catchy": 5 },
@@ -29,6 +33,8 @@
 
         {
             "length": 43,
+            "fromLine": 3,
+            "toLine": 4,
             "phrases": [
                 { "text": "play video games all day while people watch", "truth": 5, "catchy": 0 },
                 { "text": "practice burping the alphabet", "truth": 0, "catchy": 5 },
@@ -38,6 +44,8 @@
 
         {
             "length": 51,
+            "fromLine": 6,
+            "toLine": 7,
             "phrases": [
                 { "text": "in England", "truth": 5, "catchy": 0 },
                 { "text": "in a hollowed-out volcano", "truth": 0, "catchy": 10 },
@@ -47,6 +55,8 @@
 
         {
             "length": 42,
+            "fromLine": 8,
+            "toLine": 9,
             "phrases": [
                 { "text": "You're the man", "truth": 5, "catchy": 0 },
                 { "text": "I'm doing this for you", "truth": 5, "catchy": 5 },

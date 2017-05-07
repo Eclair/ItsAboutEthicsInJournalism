@@ -13,6 +13,8 @@
 
         {
             "length": 28,
+            "fromLine": 0,
+            "toLine": 2,
             "phrases": [
                 { "text": "an unidentified hacker group", "truth": 5, "catchy": 5 },
                 { "text": "an angry lumberjack", "truth": 0, "catchy": 10 },
@@ -22,6 +24,8 @@
 
         {
             "length": 35,
+            "fromLine": 4,
+            "toLine": 5,
             "phrases": [
                 { "text": "french kissed a polar bear", "truth": 0, "catchy": 10 },
                 { "text": "worked with any government agencies", "truth": 5, "catchy": 0 },
@@ -31,6 +35,8 @@
 
         {
             "length": 29,
+            "fromLine": 6,
+            "toLine": 7,
             "phrases": [
                 { "text": "yoga classes for the homeless", "truth": 0, "catchy": 10 },
                 { "text": "Reporters Without Ethics", "truth": 5, "catchy": 0 },
@@ -40,6 +46,8 @@
 
         {
             "length": 26,
+            "fromLine": 8,
+            "toLine": 10,
             "phrases": [
                 { "text": "an international treasure", "truth": 5, "catchy": 5 },
                 { "text": "innocent of any wrongdoing", "truth": 5, "catchy": 0 },
@@ -49,6 +57,8 @@
 
         {
             "length": 29,
+            "fromLine": 11,
+            "toLine": 12,
             "phrases": [
                 { "text": "a new Rolls Royce Phantom", "truth": 5, "catchy": 5 },
                 { "text": "a Ford Pinto", "truth": 0, "catchy": 0 },
