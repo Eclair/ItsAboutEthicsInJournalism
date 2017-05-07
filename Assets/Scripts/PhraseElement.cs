@@ -24,7 +24,7 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 		startPosition = transform.position;
 		startOffset = Input.mousePosition - transform.position;
 		ArticleManager.instance.StartDraggingForSpotType(this.spotIndex);
-		this.gameObject.GetComponent<Image>().color = Color.cyan;
+		this.gameObject.GetComponentInChildren<Text>().color = Color.cyan;
 	}
 
 	#endregion
@@ -32,9 +32,8 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 	#region IDragHandler implementation
 
 	public void OnDrag(PointerEventData eventData) {
-		Input.multiTouchEnabled = false;
 		transform.position = Input.mousePosition - startOffset;
-		this.gameObject.GetComponent<Image>().color = Color.green;
+		this.gameObject.GetComponentInChildren<Text>().color = Color.green;
 	}
 
 	#endregion
@@ -42,7 +41,7 @@ public class PhraseElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 	#region IEndDragHandler implementation
 
 	public void OnEndDrag(PointerEventData eventData) {
-		this.gameObject.GetComponent<Image>().color = Color.red;
+		this.gameObject.GetComponentInChildren<Text>().color = Color.red;
 
 		itemBeingDragged = null;
 
