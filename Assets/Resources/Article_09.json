@@ -12,7 +12,7 @@
     },
     "spots": [
         {
-            "length": 28,
+            "length": 8,
             "phrases": [
                 { "text": "a General Lack of Cool", "truth": 5, "catchy": 0 },
                 { "text": "Nuclear Concerns", "truth": 10, "catchy": 10 },
@@ -21,7 +21,7 @@
         },
 
         {
-            "length": 35,
+            "length": 8,
             "phrases": [
                 { "text": "Mr. Poopypants", "truth": 5, "catchy": 5 },
                 { "text": "a very sensible individual", "truth": 0, "catchy": 0 },
@@ -30,7 +30,7 @@
         },
 
         {
-            "length": 29,
+            "length": 8,
             "phrases": [
                 { "text": "steel drums", "truth": 5, "catchy": 5 },
                 { "text": "singing crabs", "truth": 0, "catchy": 10 },
@@ -39,7 +39,7 @@
         },
 
         {
-            "length": 26,
+            "length": 8,
             "phrases": [
                 { "text": "the seaweed is always greener in somebody else's lake", "truth": 5, "catchy": 10 },
                 { "text": "every little thing gonna be alright", "truth": 0, "catchy": 5 },
@@ -48,7 +48,7 @@
         },
 
         {
-            "length": 29,
+            "length": 8,
             "phrases": [
                 { "text": "nuclear warhead", "truth": 5, "catchy": 0 },
                 { "text": "fake dreadlock hat", "truth": 0, "catchy": 5 }
