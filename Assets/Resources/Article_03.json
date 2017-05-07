@@ -1,66 +1,40 @@
 {
-    "headline": "Local Hero SuperBrayden Defeats $0",
+    "headline": "Monster Party Cause for Concern",
     "context": [
-        "The city rejoiced today as SuperBrayden finally achieved victory over his archnemesis. Clad in his red costume, SuperBrayden used $1 to save the day, and our fair city.",
-        "His trusty sidekick Alvin able to help stop the dastardly villain by $2. Alvin's diet of $3-enriched dog food has given him superpowers as well, which proved invaluable today.",
-        "\"We owe SuperBrayden a debt of gratitude,\" said Mayor McCrudden. \"Without him, we'd all be $4 right now. We owe him all our lives.\""
+        "A planned gathering of wolfmen, mummies, and $0 this weekend has raised the concern of community leaders. The \"Monster Mash,\" in its third year, is expecting a record turnout.",
+        "\"We're just a bunch of cool dudes and dudettes who just wanna party,\" said The Mummy, who appeared to be wrapped in $1.",
+        "Law enforcement officials did not have kind words to say. \"Last year, I saw a Dracula $3. I don't want to see that again,\" said Sheriff Anurag Bhatia.",
+        "Humans are encouraged not to poke, prod, or tease the monsters this weekend."
     ],
     "score": {
-        "truth": 30,
-        "catchy": 50
+        "truth": 35,
+        "catchy": 40
     },
     "spots": [
         {
             "length": 8,
-            "fromLine": 0,
-            "toLine": 2,
             "phrases": [
-                { "text": "Gorgoroth the Destroyer", "truth": 0, "catchy": 10 },
-                { "text": "Marklon the Meek", "truth": 5, "catchy": 0 },
-                { "text": "Nana McCrudden's Kissing Onslaught", "truth": 0, "catchy": 15 }
-            ]
-        },
-
-        {
-            "length": 12,
-            "fromLine": 1,
-            "toLine": 2,
-            "phrases": [
-                { "text": "ability to alter Youtube view counts", "truth": 0, "catchy": 5 },
-                { "text": "ability to identify the color blue", "truth": 5, "catchy": 5 },
-                { "text": "enchanted diamond pickaxe", "truth": 10, "catchy": 10 }
-            ]
-        },
-
-        {
-            "length": 12,
-            "fromLine": 4,
-            "toLine": 5,
-            "phrases": [
-                { "text": "eating his pants", "truth": 5, "catchy": 5 },
-                { "text": "using him as a fire hydrant", "truth": 0, "catchy": 10 },
-                { "text": "acting really cute", "truth": 5, "catchy": 5 }
+                { "text": "Draculas", "truth": 10, "catchy": 0 },
+                { "text": "Politicians", "truth": 5, "catchy": 5 },
+                { "text": "Elon Musk", "truth": 0, "catchy": 5 }
             ]
         },
 
         {
             "length": 8,
-            "fromLine": 6,
-            "toLine": 7,
             "phrases": [
-                { "text": "plutonium", "truth": 0, "catchy": 10 },
-                { "text": "ENER-G Dog Sauce", "truth": 5, "catchy": 0 }
+                { "text": "toilet paper", "truth": 5, "catchy": 5 },
+                { "text": "bandages", "truth": 0, "catchy": 0 },
+                { "text": "honey mustard", "truth": 10, "catchy": 5 }
             ]
         },
 
         {
             "length": 10,
-            "fromLine": 9,
-            "toLine": 11,
             "phrases": [
-                { "text": "speaking German", "truth": 0, "catchy": 5 },
-                { "text": "gripped by the iron hand of tyranny", "truth": 5, "catchy": 0 },
-                { "text": "forced to watch the same cat video forever", "truth": 0, "catchy": 5 }
+                { "text": "kissing Santa Claus in the bathroom", "truth": 5, "catchy": 5 },
+                { "text": "drinking blood", "truth": 0, "catchy": 10 },
+                { "text": "drinking milk until he threw up", "truth": 0, "catchy": 5 }
             ]
         }
     ]

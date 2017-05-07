@@ -1,45 +1,68 @@
 {
-    "headline": "Horrible Teacher Assigns Too Much Homework",
+    "headline": "\"Minceraft\" Takes Gaming World by Storm",
     "context": [
-        "Fourth grade teacher Edna Futtlebutt, who may be $0, today assigned three hours of homework to her excellent students. ",
-        "\"The little rats deserve it,\" students quoted Futtlebutt as saying while scratching the wart on her nose. \"I can't afford my yearly trip to $1 on my teacher's salary, and I'm going to make them pay for it.\"",
-        "Students had a different perspective. \"I once saw her $2,\" said 10-year-old Jira Sakaguchi. \"I'm scared!\"",
-        "At press time, Futtlebutt could not be reached for comment, as she $3."
+        "It's the newest sensation you might not have heard of: Minceraft. It's a game about building a raft out of meat $0, and it's sold 2 million copies in the last 4 months.",
+        "Markus Humann, creator of Minceraft, is already well known for his hit game $1. Minceraft, however, is his first foray into meat-based games.",
+        "\"I wanted to show my passion for $2,\" said Humann, 2014's International Swedish Meatball Eating Competition winner. Humann, however, has invited controversy with his political opinions.",
+        "Last month, he was forced to apologize for comments insulting to $3. But the kids who play Minceraft are more interested in the game than its creator.",
+        "\"I made a raft out of $4 and it looked delicious,\" said Augustus Fleischmann, a 9-year-old avid Minceraft player."
     ],
     "score": {
-        "truth": 20,
-        "catchy": 20
+        "truth": 25,
+        "catchy": 50
     },
     "spots": [
         {
-            "length": 8,
+            "length": 10,
+            "fromLine": 1,
+            "toLine": 3,
             "phrases": [
-                { "text": "undergoing some personal trauma", "truth": 0, "catchy": 0 },
-                { "text": "a witch", "truth": 5, "catchy": 5 },
+                { "text": "and cultivating e.coli", "truth": 5, "catchy": 5 },
+                { "text": ", based on a hit Exploration Channel show", "truth": 10, "catchy": 0 },
+                { "text": "and Seaburgers", "truth": 0, "catchy": 5 }
             ]
         },
 
         {
             "length": 8,
+            "fromLine": 5,
+            "toLine": 7,
             "phrases": [
-                { "text": "Aruba", "truth": 0, "catchy": 0 },
-                { "text": "the 9th circle of Hell", "truth": 5, "catchy": 5 },
+                { "text": "Super Beefio Brothers", "truth": 5, "catchy": 0 },
+                { "text": "Vegetable Van", "truth": 0, "catchy": 0 },
+                { "text": "Soyman", "truth": 0, "catchy": 5 }
             ]
         },
 
         {
             "length": 10,
+            "fromLine": 8,
+            "toLine": 10,
             "phrases": [
-                { "text": "with a cookbook on how to eat little boys", "truth": 5, "catchy": 5 },
-                { "text": "doing volunteer work", "truth": 0, "catchy": 0 },
+                { "text": "meat and its many applications", "truth": 5, "catchy": 0 },
+                { "text": "unpopular code languages", "truth": 0, "catchy": 0 },
+                { "text": "growing a beard on my neck", "truth": 0, "catchy": 5 }
             ]
         },
 
         {
             "length": 10,
+            "fromLine": 14,
+            "toLine": 16,
             "phrases": [
-                { "text": "was feeding the spiders that live in her hair", "truth": 5, "catchy": 5 },
-                { "text": "was fostering puppies", "truth": 0, "catchy": 5 }
+                { "text": "Jamaicans", "truth": 0, "catchy": 10 },
+                { "text": "the Society for Prevention of Cruelty to Animals", "truth": 5, "catchy": 5 },
+                { "text": "people who vote without researching candidates", "truth": 0, "catchy": 5 }
+            ]
+        },
+
+        {
+            "length": 8,
+            "fromLine": 17,
+            "toLine": 19,
+            "phrases": [
+                { "text": "reconstituted pork", "truth": 5, "catchy": 0 },
+                { "text": "penguin burger", "truth": 0, "catchy": 5 }
             ]
         }
     ]

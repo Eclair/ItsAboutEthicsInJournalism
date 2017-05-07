@@ -1,40 +1,67 @@
 {
-    "headline": "Monster Party Cause for Concern",
+    "headline": "Research Shows that Eating $0 Every Day Leads to Longer Life",
     "context": [
-        "A planned gathering of wolfmen, mummies, and $0 this weekend has raised the concern of community leaders. The \"Monster Mash,\" in its third year, is expecting a record turnout.",
-        "\"We're just a bunch of cool dudes and dudettes who just wanna party,\" said The Mummy, who appeared to be wrapped in $1.",
-        "Law enforcement officials did not have kind words to say. \"Last year, I saw a Dracula $3. I don't want to see that again,\" said Sheriff Anurag Bhatia.",
-        "Humans are encouraged not to poke, prod, or tease the monsters this weekend."
+        "In a new article published in the Journal of Good Science, scientists have shown that humans could extend their lives by $1 years based on daily ingestion of this superfood.",
+        "\"We haven't been eating right for years,\" said $2. \"We finally have the science that proves we shouldn't have put so much emphasis on $3.\"",
+        "The news has already angered national fast food chain McVanka's, who just launched the Mc$4."
     ],
     "score": {
-        "truth": 35,
-        "catchy": 40
+        "truth": 30,
+        "catchy": 50
     },
     "spots": [
         {
-            "length": 8,
+            "length": 12,
+            "fromLine": 0,
+            "toLine": 3,
             "phrases": [
-                { "text": "Draculas", "truth": 10, "catchy": 0 },
-                { "text": "Politicians", "truth": 5, "catchy": 5 },
-                { "text": "Elon Musk", "truth": 0, "catchy": 5 }
+                { "text": "a Stick of Butter", "truth": 0, "catchy": 10 },
+                { "text": "Brussels Sprouts", "truth": 5, "catchy": 0 },
+                { "text": "Chocolate-Covered Cockroaches", "truth": 0, "catchy": 15 }
+            ]
+        },
+
+        {
+            "length": 3,
+            "fromLine": 0,
+            "toLine": 2,
+            "phrases": [
+                { "text": "15", "truth": 10, "catchy": 0 },
+                { "text": "50", "truth": 5, "catchy": 5 },
+                { "text": "300", "truth": 0, "catchy": 10 }
+            ]
+        },
+
+        {
+            "length": 15,
+            "fromLine": 4,
+            "toLine": 5,
+            "phrases": [
+                { "text": "Dana Weimeraner, lead researcher at the Institute for Food Science", "truth": 5, "catchy": 0 },
+                { "text": "The Pallbearer, professional wrestler and accordion collector", "truth": 0, "catchy": 10 },
+                { "text": "Jeffrey Daniels, recipient of the 2017 Janitor of the Year Award", "truth": 0, "catchy": 5 }
             ]
         },
 
         {
             "length": 8,
+            "fromLine": 6,
+            "toLine": 7,
             "phrases": [
-                { "text": "toilet paper", "truth": 5, "catchy": 5 },
-                { "text": "bandages", "truth": 0, "catchy": 0 },
-                { "text": "honey mustard", "truth": 10, "catchy": 5 }
+                { "text": "our outdated food pyramid", "truth": 5, "catchy": 0 },
+                { "text": "the diets of humpback whales", "truth": 0, "catchy": 5 },
+                { "text": "pizza-only diet regimens", "truth": 0, "catchy": 5 }
             ]
         },
 
         {
-            "length": 10,
+            "length": 8,
+            "fromLine": 9,
+            "toLine": 10,
             "phrases": [
-                { "text": "kissing Santa Claus in the bathroom", "truth": 5, "catchy": 5 },
-                { "text": "drinking blood", "truth": 0, "catchy": 10 },
-                { "text": "drinking milk until he threw up", "truth": 0, "catchy": 5 }
+                { "text": "Heartstopper Supreme", "truth": 5, "catchy": 5 },
+                { "text": "Steamed Broccoli", "truth": 0, "catchy": 0 },
+                { "text": "Bacon Cheddar Lardburger", "truth": 5, "catchy": 10 }
             ]
         }
     ]

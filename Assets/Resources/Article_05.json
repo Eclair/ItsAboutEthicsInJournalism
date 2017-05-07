@@ -1,66 +1,66 @@
 {
-    "headline": "Alien Discovery Exposed as Fake News",
+    "headline": "Local Hero SuperBrayden Defeats $0",
     "context": [
-        "The gripping story of an alien from $0 was revealed to be a hoax perpetrated by $1. Government officials interviewed about the hoax were clearly upset.",
-        "\"We were all blinded by our own hopes,\" said Lt. Col. James McMasters, head of the U.S. Extraterrestrial Relations Office. \"I am particularly devastated, as I planned to $2.\"",
-        "The beloved alien charmed Americans with his crazy antics, especially his $3. That he was revealed to be $4 dampened hopes of extraterrestrial intelligence."
+        "The city rejoiced today as SuperBrayden finally achieved victory over his archnemesis. Clad in his red costume, SuperBrayden used $1 to save the day, and our fair city.",
+        "His trusty sidekick Alvin able to help stop the dastardly villain by $2. Alvin's diet of $3-enriched dog food has given him superpowers as well, which proved invaluable today.",
+        "\"We owe SuperBrayden a debt of gratitude,\" said Mayor McCrudden. \"Without him, we'd all be $4 right now. We owe him all our lives.\""
     ],
     "score": {
         "truth": 30,
-        "catchy": 40
+        "catchy": 50
     },
     "spots": [
         {
             "length": 8,
             "fromLine": 0,
-            "toLine": 1,
+            "toLine": 2,
             "phrases": [
-                { "text": "Zarklon VI", "truth": 0, "catchy": 5 },
-                { "text": "Hoboken, New Jersey", "truth": 0, "catchy": 10 },
-                { "text": "Mars", "truth": 5, "catchy": 0 }
+                { "text": "Gorgoroth the Destroyer", "truth": 0, "catchy": 10 },
+                { "text": "Marklon the Meek", "truth": 5, "catchy": 0 },
+                { "text": "Nana McCrudden's Kissing Onslaught", "truth": 0, "catchy": 15 }
+            ]
+        },
+
+        {
+            "length": 12,
+            "fromLine": 1,
+            "toLine": 2,
+            "phrases": [
+                { "text": "ability to alter Youtube view counts", "truth": 0, "catchy": 5 },
+                { "text": "ability to identify the color blue", "truth": 5, "catchy": 5 },
+                { "text": "enchanted diamond pickaxe", "truth": 10, "catchy": 10 }
+            ]
+        },
+
+        {
+            "length": 12,
+            "fromLine": 4,
+            "toLine": 5,
+            "phrases": [
+                { "text": "eating his pants", "truth": 5, "catchy": 5 },
+                { "text": "using him as a fire hydrant", "truth": 0, "catchy": 10 },
+                { "text": "acting really cute", "truth": 5, "catchy": 5 }
             ]
         },
 
         {
             "length": 8,
-            "fromLine": 1,
-            "toLine": 2,
-            "phrases": [
-                { "text": "the Jamaicans", "truth": 0, "catchy": 5 },
-                { "text": "mischievous MIT students", "truth": 5, "catchy": 0 },
-                { "text": "the Society for Alternative Truth", "truth": 0, "catchy": 5 }
-            ]
-        },
-
-        {
-            "length": 14,
             "fromLine": 6,
             "toLine": 7,
             "phrases": [
-                { "text": "marry the alien and live on an island", "truth": 0, "catchy": 10 },
-                { "text": "learn more about our solar system", "truth": 10, "catchy": 0 },
-                { "text": "try alien steaks for the first time", "truth": 5, "catchy": 5 }
+                { "text": "plutonium", "truth": 0, "catchy": 10 },
+                { "text": "ENER-G Dog Sauce", "truth": 5, "catchy": 0 }
             ]
         },
 
         {
             "length": 10,
             "fromLine": 9,
-            "toLine": 10,
+            "toLine": 11,
             "phrases": [
-                { "text": "Gangnam Style dancing", "truth": 0, "catchy": 5 },
-                { "text": "telekinetic juggling", "truth": 5, "catchy": 0 },
-                { "text": "edgy stand-up comedy routine", "truth": 0, "catchy": 10 }
-            ]
-        },
-
-        {
-            "length": 8,
-            "fromLine": 11,
-            "toLine": 12,
-            "phrases": [
-                { "text": "a robot", "truth": 5, "catchy": 0 },
-                { "text": "Warwick Davis", "truth": 0, "catchy": 5 }
+                { "text": "speaking German", "truth": 0, "catchy": 5 },
+                { "text": "gripped by the iron hand of tyranny", "truth": 5, "catchy": 0 },
+                { "text": "forced to watch the same cat video forever", "truth": 0, "catchy": 5 }
             ]
         }
     ]
