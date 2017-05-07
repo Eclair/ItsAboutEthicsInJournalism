@@ -28,6 +28,8 @@ public class ArticleManager : MonoBehaviour {
 	public Slider truthSlider;
 	public Slider cachySlider;
 
+	public AudioSource stampAudioSource;
+
 	private Article article;
 	private bool wasUpdated = false;
 	private bool wasUpdatedPanel = false;
@@ -118,11 +120,12 @@ public class ArticleManager : MonoBehaviour {
 	}
 
 	private IEnumerator OnStampAnimationEnded() {
-		yield return new WaitForSeconds(0.5f);
+		yield return new WaitForSeconds(0.35f);
 
 		showStamp();
+		stampAudioSource.Play();
 
-		yield return new WaitForSeconds(0.5f);
+		yield return new WaitForSeconds(0.65f);
 
 		handWithStamp.SetActive(false);
 
