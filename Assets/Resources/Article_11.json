@@ -1,0 +1,46 @@
+{
+    "headline": "Horrible Teacher Assigns Too Much Homework",
+    "context": [
+        "Fourth grade teacher Edna Futtlebutt, who may be $0, today assigned three hours of homework to her excellent students. ",
+        "\"The little rats deserve it,\" students quoted Futtlebutt as saying while scratching the wart on her nose. \"I can't afford my yearly trip to $1 on my teacher's salary, and I'm going to make them pay for it.\"",
+        "Students had a different perspective. \"I once saw her $2,\" said 10-year-old Jira Sakaguchi. \"I'm scared!\"",
+        "At press time, Futtlebutt could not be reached for comment, as she $3."
+    ],
+    "score": {
+        "truth": 20,
+        "catchy": 20
+    },
+    "spots": [
+        {
+            "length": 8,
+            "phrases": [
+                { "text": "undergoing some personal trauma", "truth": 0, "catchy": 0 },
+                { "text": "a witch", "truth": 5, "catchy": 5 },
+            ]
+        },
+
+        {
+            "length": 8,
+            "phrases": [
+                { "text": "Aruba", "truth": 0, "catchy": 0 },
+                { "text": "the 9th circle of Hell", "truth": 5, "catchy": 5 },
+            ]
+        },
+
+        {
+            "length": 10,
+            "phrases": [
+                { "text": "with a cookbook on how to eat little boys", "truth": 5, "catchy": 5 },
+                { "text": "doing volunteer work", "truth": 0, "catchy": 0 },
+            ]
+        },
+
+        {
+            "length": 10,
+            "phrases": [
+                { "text": "was feeding the spiders that live in her hair", "truth": 5, "catchy": 5 },
+                { "text": "was fostering puppies", "truth": 0, "catchy": 5 }
+            ]
+        }
+    ]
+}
