@@ -11,7 +11,7 @@
     },
     "spots": [
         {
-            "length": 34,
+            "length": 8,
             "fromLine": 0,
             "toLine": 2,
             "phrases": [
@@ -22,7 +22,7 @@
         },
 
         {
-            "length": 36,
+            "length": 12,
             "fromLine": 1,
             "toLine": 2,
             "phrases": [
@@ -33,7 +33,7 @@
         },
 
         {
-            "length": 27,
+            "length": 12,
             "fromLine": 4,
             "toLine": 5,
             "phrases": [
@@ -44,7 +44,7 @@
         },
 
         {
-            "length": 16,
+            "length": 8,
             "fromLine": 6,
             "toLine": 7,
             "phrases": [
@@ -54,7 +54,7 @@
         },
 
         {
-            "length": 42,
+            "length": 10,
             "fromLine": 9,
             "toLine": 11,
             "phrases": [

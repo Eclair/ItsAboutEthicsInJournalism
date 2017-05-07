@@ -1,5 +1,5 @@
 {
-    "headline": "Research Shows that Eating $0 Every Day Leads to Longer Lives",
+    "headline": "Research Shows that Eating $0 Every Day Leads to Longer Life",
     "context": [
         "In a new article published in the Journal of Good Science, scientists have shown that humans could extend their lives by $1 years based on daily ingestion of this superfood.",
         "\"We haven't been eating right for years,\" said $2. \"We finally have the science that proves we shouldn't have put so much emphasis on $3.\"",
@@ -11,7 +11,7 @@
     },
     "spots": [
         {
-            "length": 29,
+            "length": 12,
             "fromLine": 0,
             "toLine": 3,
             "phrases": [
@@ -33,7 +33,7 @@
         },
 
         {
-            "length": 66,
+            "length": 15,
             "fromLine": 4,
             "toLine": 5,
             "phrases": [
@@ -44,7 +44,7 @@
         },
 
         {
-            "length": 66,
+            "length": 8,
             "fromLine": 6,
             "toLine": 7,
             "phrases": [
@@ -55,7 +55,7 @@
         },
 
         {
-            "length": 24,
+            "length": 8,
             "fromLine": 9,
             "toLine": 10,
             "phrases": [

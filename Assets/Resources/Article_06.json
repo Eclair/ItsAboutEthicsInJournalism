@@ -12,7 +12,7 @@
     "spots": [
 
         {
-            "length": 28,
+            "length": 10,
             "fromLine": 0,
             "toLine": 2,
             "phrases": [
@@ -23,7 +23,7 @@
         },
 
         {
-            "length": 35,
+            "length": 10,
             "fromLine": 4,
             "toLine": 5,
             "phrases": [
@@ -34,7 +34,7 @@
         },
 
         {
-            "length": 29,
+            "length": 8,
             "fromLine": 6,
             "toLine": 7,
             "phrases": [
@@ -45,7 +45,7 @@
         },
 
         {
-            "length": 26,
+            "length": 8,
             "fromLine": 8,
             "toLine": 10,
             "phrases": [
@@ -56,7 +56,7 @@
         },
 
         {
-            "length": 29,
+            "length": 10,
             "fromLine": 11,
             "toLine": 12,
             "phrases": [
