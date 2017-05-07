@@ -1,15 +1,16 @@
 {
-    "headline": "Quickileaks Leaks, Allegations of $0 by Site Operator",
+    "headline": "Quickileaks Leaks, Allegations of Shenanigans by Site Operator",
     "context": [
-        "Quickileaks, the notorious exposer of classified information, was hacked by $1, revealing startling allegations involving its owner, Orange Julian.",
-        "\"This \"leak\" is clearly fake news,\", said Orange, \"I have never $2. This is clearly an attempt to discredit me. I'm involved in many charitable causes, including $3.\"",
-        "\"Orange Julian is $4,\" said a representative for the Jamaican Foreign Ministry. \"I am sure he will be fully exonerated.\" The representative then drove off in a $5."
+        "Quickileaks, the notorious exposer of classified information, was hacked by $0, revealing startling allegations involving its owner, Orange Julian.",
+        "\"This \"leak\" is clearly fake news,\", said Orange, \"I have never $1. This is clearly an attempt to discredit me. I'm involved in many charitable causes, including $2.\"",
+        "\"Orange Julian is $3,\" said a representative for the Jamaican Foreign Ministry. \"I am sure he will be fully exonerated.\" The representative then drove off in a $4."
     ],
     "score": {
         "truth": 25,
         "catchy": 50
     },
     "spots": [
+
         {
             "length": 28,
             "phrases": [
