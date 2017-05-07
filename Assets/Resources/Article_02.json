@@ -15,7 +15,7 @@
             "length": 8,
             "phrases": [
                 { "text": "undergoing some personal trauma", "truth": 0, "catchy": 0 },
-                { "text": "a witch", "truth": 5, "catchy": 5 },
+                { "text": "a witch", "truth": 5, "catchy": 5 }
             ]
         },
 
@@ -23,7 +23,7 @@
             "length": 8,
             "phrases": [
                 { "text": "Aruba", "truth": 0, "catchy": 0 },
-                { "text": "the 9th circle of Hell", "truth": 5, "catchy": 5 },
+                { "text": "the 9th circle of Hell", "truth": 5, "catchy": 5 }
             ]
         },
 
@@ -31,7 +31,7 @@
             "length": 10,
             "phrases": [
                 { "text": "with a cookbook on how to eat little boys", "truth": 5, "catchy": 5 },
-                { "text": "doing volunteer work", "truth": 0, "catchy": 0 },
+                { "text": "doing volunteer work", "truth": 0, "catchy": 0 }
             ]
         },
 
