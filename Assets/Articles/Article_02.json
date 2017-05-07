@@ -6,8 +6,8 @@
         "The news has already angered national fast food chain McVanka's, who just launched the Mc$4."
     ],
     "score": {
-        "truth": 15,
-        "catchy": 30
+        "truth": 30,
+        "catchy": 50
     },
     "spots": [
         {
@@ -34,6 +34,15 @@
                 { "text": "Dana Weimeraner, lead researcher at the Institute for Food Science", "truth": 5, "catchy": 0 },
                 { "text": "The Pallbearer, professional wrestler and accordion collector", "truth": 0, "catchy": 10 },
                 { "text": "Jeffrey Daniels, recipient of the 2017 Janitor of the Year Award", "truth": 0, "catchy": 5 }
+            ]
+        },
+
+        {
+            "length": 66,
+            "phrases": [
+                { "text": "our outdated food pyramid", "truth": 5, "catchy": 0 },
+                { "text": "the diets of humpback whales", "truth": 0, "catchy": 5 },
+                { "text": "pizza-only diet regimens", "truth": 0, "catchy": 5 }
             ]
         },
 
